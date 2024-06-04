@@ -28,7 +28,7 @@ ___
 # Hoisting
 JavaScript **Hoisting** refers to the process whereby the interpreter appears to move the declaration of functions, variables, classes, or imports to the top of their scope, prior to execution of the code.
 ## Variable Hoisting
-variable can be used before it has been declared.
+variable can be used before it has been declared.<br>
 But variable Initialization is not hoisted.
 ```js
 x = 5 ;
@@ -91,8 +91,8 @@ add(10,20,print);
 add(10,20,printInDocument);
 ```
 ##### Remember when using callbacks 
-**Don't pass Functions Like this** 
-`add(10,20,print())` => this will cause error
+**Don't pass Functions Like this** <br>
+`add(10,20,print())` => this will cause error<br>
 
 ___
 # Arrays
@@ -140,7 +140,7 @@ ___
 13. `myarr.join(' ')` => it takes a separator and joins all array
 14. `myarr1.concat(myarr2)` => returns an array with joining to arrays together
 #### Sort Array
-to sort numbers in array it needs specific function `array.sort(compareFunction)`
+to sort numbers in array it needs specific function `array.sort(compareFunction)`<br>
 A function that defines a sort order. The function should return a negative, zero, or positive value, depending on the arguments.
 
 ```js
@@ -223,8 +223,8 @@ console.log(x.substr(0,5));//hello 5 char
 `x.includes("hello",index[opt]);` => true or false
 
 ### Starts-with & Ends-With
-`x.startsWith("he",index[opt]);`=>true
-`x.endsWith("he",length[opt]);`=>false
+`x.startsWith("he",index[opt]);`=>true<br>
+`x.endsWith("he",length[opt]);`=>false<br>
 ___
 # Math Object
 - `Math.round(99.2)` => 99
