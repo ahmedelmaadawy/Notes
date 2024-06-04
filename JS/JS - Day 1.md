@@ -37,14 +37,14 @@ console.log(num); //100
 ```
 ___
 ## Comparison Coercion
-JavaScript  to automatically tries converted to make them compatible for operations or comparisons.
-**Loose equality**: compares only values in case of different data type it tries to convert it.
-**Strict Equality :** compares values and datatypes even when the values are equal but in different data types it return false.
+JavaScript  to automatically tries converted to make them compatible for operations or comparisons.<br>
+**Loose equality**: compares only values in case of different data type it tries to convert it.<br>
+**Strict Equality :** compares values and datatypes even when the values are equal but in different data types it return false.<br>
 
-Loose Equality `100 == "100"` =>  true
-Loose Inequality `10 != "10"` => false
-Strict Equality `100 ==="100"` => false
-Strict Inequality `100 !== "100"` => true
+Loose Equality `100 == "100"` =>  true<br>
+Loose Inequality `10 != "10"` => false<br>
+Strict Equality `100 ==="100"` => false<br>
+Strict Inequality `100 !== "100"` => true<br>
 
 Falsy values : These values are considered false in comparisons any other values are considered truthy values.
 1. false
@@ -77,8 +77,8 @@ console.log(parseInt("ahmed 100 ahmed")); //NaN
 ```
 
 ### Parse Float
-`parseInt(100.55)` => 100
-`parseFloat(100.55);` => 100.55
+`parseInt(100.55)` => 100<br>
+`parseFloat(100.55);` => 100.55<br>
 
 ## From number to string
 ```js
@@ -90,9 +90,9 @@ console.log(str);
 **Resources :** [Coercion and Conversion](https://medium.com/@atuljha2402/understanding-javascript-type-coercion-type-conversion-a2ce84c00331#:~:text=Type%20coercion%20refers%20to%20the,complete%20the%20operation%20or%20comparison.)
 ___
 ## Logical Operators
-`!  => NOT`
-`&& => AND`
-`|| => OR`
+`!  => NOT`<br>
+`&& => AND`<br>
+`|| => OR`<br>
 ## Ternary Operator
-`condition? iftrue:ifFalse;`
+`condition ? iftrue : ifFalse ;`
 ___
